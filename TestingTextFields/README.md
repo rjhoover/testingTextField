@@ -18,6 +18,6 @@ I can't see anything wrong with the code or the storyboard, but I have limited  
 </br>
 
 
-Can anyone see what the problem is? I've been fighting over this for more than a day and can't find anything online that talks about this problem.
+Can anyone see what the problem is? I've been fighting over this for more than a day and all I can find online is around ten years old (and it's objc code)
 </br>
 
