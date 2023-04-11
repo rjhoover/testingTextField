@@ -32,6 +32,7 @@
 		686FC7E429E60D7800694E48 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		686FC7E529E60D7800694E48 /* FileManager-documentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-documentsDirectory.swift"; sourceTree = "<group>"; };
 		686FC7E929E60E6300694E48 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		686FC7EB29E613D200694E48 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 				686FC7E429E60D7800694E48 /* DataManager.swift */,
 				686FC7E529E60D7800694E48 /* FileManager-documentsDirectory.swift */,
 				686FC7E329E60D7800694E48 /* Note.swift */,
+				686FC7EB29E613D200694E48 /* README.md */,
 				686FC7D529E60C8900694E48 /* Main.storyboard */,
 				686FC7D829E60C8B00694E48 /* Assets.xcassets */,
 				686FC7DA29E60C8B00694E48 /* LaunchScreen.storyboard */,
