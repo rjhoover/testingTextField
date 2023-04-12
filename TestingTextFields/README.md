@@ -2,6 +2,9 @@
 
 This is an attempt at doing the [Milestone Projects 19-21](https://www.hackingwithswift.com/guide/ios-classic/8/3/challenge) from HWS (the UIKit version).
 
+## Solved
+#### see below
+
 The challenge is to recreate the Apple Notes app. I've got the basic setup working (the data model, extensions, a data manager).
 
 The app basically works in that it can:
@@ -21,3 +24,8 @@ I can't see anything wrong with the code or the storyboard, but I have limited  
 Can anyone see what the problem is? I've been fighting over this for more than a day and all I can find online is around ten years old (and it's objc code)
 </br>
 
+## Solution
+The problem was that the navigation bar was being placed above the title text field and it was preventing any interaction with the text field.
+
+#### Fix
+Adding **navigationItem.largeTitleDisplayMode = .never** to the viewDidLoad() in the **NoteViewController**

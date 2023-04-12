@@ -9,7 +9,7 @@ import UIKit
 
 class NoteViewController: UIViewController {
 
-    // MARK: - the titleTextField is not editable
+    /// FIXED - the titleTextField is not editable
     
     @IBOutlet var titleTextField: UITextField!
     @IBOutlet var bodyTextView: UITextView!
@@ -20,6 +20,9 @@ class NoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        /// this next line fixes the text field problem
+        navigationItem.largeTitleDisplayMode = .never
+        
         guard let notes = notes else { return }
         
         if let index = index {
